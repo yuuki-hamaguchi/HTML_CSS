@@ -6,6 +6,13 @@
 	box-sizing: border-box;
 }
 
+/*clearfixを追加*/
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
 /*header*/
 .header {
 	width: 100%;
