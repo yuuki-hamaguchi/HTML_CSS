@@ -1,0 +1,71 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.box {
+	margin: 50px auto;
+	width: 960px;
+}
+
+.step-box {
+	float: left;
+	margin-right: 30px;
+	padding: 10px;
+	border: 1px solid gray;
+	width: 300px;
+	position: relative;
+}
+
+.step-box:last-child {
+	margin-right: 0;
+}
+
+
+/*　floatはいらない。positionで指定するため？*/
+.step-num {
+	float: left;
+	background-color: orange;
+	padding: 3px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/*分ける必要なし！*/
+.step {
+	color: white;
+}
+
+.step-img1 {
+	width: 280px;
+	height: 150px;
+	background-image: url(img/flow01.png);
+	background-size: cover;
+	background-position: bottom;
+}
+.step-img2{
+	width: 280px;
+	height: 150px;
+	background-image: url(img/flow02.png);
+	background-size: cover;
+	background-position: bottom;
+}
+.step-img3 {
+	width: 280px;
+	height: 150px;
+	background-image: url(img/flow03.png);
+	background-size: cover;
+	background-position: bottom;
+}
+
+.step-head {
+	padding: 10px 0 8px 0;
+}
