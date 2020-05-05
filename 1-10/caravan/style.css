@@ -242,3 +242,54 @@ footer {
 .footer-text {
 	color: #fff;
 }
+
+
+
+
+
+
+@media screen and (max-width:425px) {
+	.main {
+		width: 100%;
+	}
+	.main-visual-content {
+		width: 100%;
+	}
+	.nav-list-item {
+		display: block;
+	}
+	.blog {
+		width: 100%;
+	}
+	.blog-image {
+		width: 50%;
+	}
+	.blog-text {
+		width: 50%;
+	}
+	.pagination {
+		padding-bottom: 50px;
+	}
+	.sidebar {
+		width: 100%;
+	}
+	.instagram-headline {
+		border-bottom: 8px solid #f7f7f7;
+		text-align: center;
+		line-height: 0.6;
+		margin-bottom: 50px;
+	}
+	.instagram-box {
+		width: 45%;
+		margin: 10px;
+	}
+	.instagram-box:nth-child(odd) {
+		margin: 10px;
+	}
+	.categories-headline {
+		border-bottom: 8px solid #f7f7f7;
+		text-align: center;
+		line-height: 0.6;
+		margin-top: 50px;
+	}
+}
